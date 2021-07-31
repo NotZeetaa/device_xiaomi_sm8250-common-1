@@ -69,6 +69,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml
 
+ifeq ($(PRODUCT_VIRTUAL_AB_OTA),true)
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.vulkan.deqp.level-2020-03-01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
+endif
+
 # Atrace
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
