@@ -302,7 +302,7 @@
     <bool name="config_needCustomFODView">true</bool>
 
     <!-- Screen off FOD -->
-    <bool name="config_supportScreenOffFod">true</bool>
+    <bool name="config_supportScreenOffFod">false</bool>
 
     <!-- SQLite -->
     <string name="db_default_journal_mode">MEMORY</string>
