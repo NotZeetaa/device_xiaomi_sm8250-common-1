@@ -354,6 +354,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qcom.factory.rc \
     init.qcom.rc \
+    init.performance_level.rc \
     init.recovery.qcom.rc \
     init.target.rc \
     fstab.qcom \
