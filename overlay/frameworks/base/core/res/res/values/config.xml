@@ -299,7 +299,7 @@
     <string name="config_adaptiveChargingResumeValue" translatable="false">0</string>
 
     <!-- Screen off FOD -->
-    <bool name="config_supportScreenOffFod">false</bool>
+    <bool name="config_supportScreenOffFod">true</bool>
 
     <!-- SQLite -->
     <string name="db_default_journal_mode">MEMORY</string>
