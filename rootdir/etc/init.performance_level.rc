@@ -20,7 +20,7 @@
 
 on property:sys.performance.level=-1
     chmod 644 /sys/class/thermal/thermal_message/sconfig
-    write /sys/class/thermal/thermal_message/sconfig 0
+    write /sys/class/thermal/thermal_message/sconfig 10
 
 #
 # All presets from powersave to performance Mode
