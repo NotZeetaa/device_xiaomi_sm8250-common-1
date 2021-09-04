@@ -61,4 +61,4 @@ on property:sys.performance.level=5
 on property:sys.performance.level=6
     chmod 644 /sys/class/thermal/thermal_message/sconfig
     write /sys/class/thermal/thermal_message/sconfig 9
-    write /sys/module/battery_saver/parameters/enabled 10
+    write /sys/module/battery_saver/parameters/enabled 0
